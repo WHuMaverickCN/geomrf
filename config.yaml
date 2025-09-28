@@ -1,0 +1,5 @@
+target_path: /home/gyx/projects/serinf/results/map_learn_l35727/
+result_files:
+  eval: prediction_with_subtype_original.csv
+  vector: test_all_vec.geojson
+  stat: prediction_with_subtype_statistics.csv

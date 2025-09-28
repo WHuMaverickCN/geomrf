@@ -1,0 +1,12 @@
+target_path: /home/gyx/projects/shapeformer/Results/Dataset/CQC/2025-05-06_00-03_inference/train
+result_files:
+  eval: combined_predictions.csv
+  vector: /home/gyx/projects/shapeformer/Dataset/raw/serinf2jag/modisf/20250304_1052_l35_727/train_all_vec.geojson
+
+params:
+  window_size: 1000
+  plausible: 0.95
+  suspicious: 0.05
+  lambda_param: 0.1
+  beta: 0.5
+  iterations: 1000
